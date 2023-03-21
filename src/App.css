@@ -20,10 +20,15 @@ a{
   display: inline-block;
 }
 
-.input-group {
+.form-control:focus {
   border-color: inherit;
-  font-size: 16px;
-  margin: 0;
+  box-shadow: none;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
 }
 /* Header part start */
 
@@ -38,7 +43,11 @@ a{
   background-color: var(--color-FFBA70);
 }
 .logo{
-  font-weight: 400;
+  font-size: 20px;
+}
+.header-upper .header-upper-links img {
+  height: 35px;
+  width: 35px;
 }
 
-/* Header part start */
+/* Header part end */

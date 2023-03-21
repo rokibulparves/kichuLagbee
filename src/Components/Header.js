@@ -23,7 +23,7 @@ const Header = () => {
 
             <header className='header-upper py-3'>
                 <div className='container-xxl'>
-                    <div className='row py-2'>
+                    <div className='row align-items-center'>
                         <div className='col-2'>
                             <h3>
                                 <Link className='text-white logo'>KichuLagbe?</Link>
@@ -40,13 +40,43 @@ const Header = () => {
                                 />
                     
                                 <span class="input-group-text" id="basic-addon2">
-                                    <BsSearch />
+                                    <BsSearch className='fs-3' />
                                 </span>
                             </div>
 
                         </div>
-                        <div className='col-6'>
-
+                        <div className='col-5'>
+                            <div className='header-upper-links d-flex align-items-center justify-content-between'>
+                                <div className='d-flex flex-column'>
+                                    <Link className='d-flex align-items-center text-white gap-10'>
+                                        <img src="images/compare.svg" alt="compare" />
+                                        <p className='mb-0'>
+                                            Compare <br /> Product
+                                        </p>
+                                    </Link>
+                                </div>
+                                <div>
+                                    <Link  className='d-flex align-items-center text-white gap-10'>
+                                        <img src='images/wishlist.svg' alt='wishlist'/>
+                                        <p className='mb-0'>Favourite <br/> wishlist</p>
+                                    </Link>
+                                </div>
+                                <div>
+                                    <Link className='d-flex align-items-center justify-content-center text-white gap-10'>
+                                        <img src='images/user.svg' alt='user'/>
+                                        <p className='mb-0'>Log in <br/> my account</p>
+                                    </Link>
+                                </div>
+                                <div>
+                                    <Link className='d-flex align-items-center text-white gap-10'>
+                                        <img src='images/cart.svg' alt='cart'/>
+                                        <div className='d-flex flex-column gap-10'>
+                                            <span className='badge bg-white text-dark'>0</span>
+                                            <p className='mb-0'>$500</p>
+                                        </div>
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
