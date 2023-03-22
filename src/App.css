@@ -8,6 +8,7 @@
   --color-131921: #131921;
   --color-3b4149: #3b4149;
   --color-FFBA70: #FFBA70;
+  --color-20303D: #20303D;
 }
 
 body{
@@ -30,6 +31,9 @@ a{
 .gap-15 {
   gap: 15px;
 }
+.gap-30 {
+  gap: 30px;
+}
 /* Header part start */
 
 .header-top-strip {
@@ -48,6 +52,9 @@ a{
 .header-upper .header-upper-links img {
   height: 35px;
   width: 35px;
+}
+.header-bottom{
+  background-color: var(--color-20303D);
 }
 
 /* Header part end */

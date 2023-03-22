@@ -81,6 +81,36 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+
+            <header className='header-bottom py-3'>
+                <div className='container-xxl'>
+                    <div className='d-flex align-items-center gap-30'>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown button
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                    
+
+                        <div className='d-flex align-items-center gap-15'>
+                            <NavLink to='/'>
+                                Home
+                            </NavLink>
+                            <NavLink to='contact'>
+                                Contact
+                            </NavLink>
+                            <NavLink to='about'>
+                                About
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+            </header>
         </>
     );
 };
